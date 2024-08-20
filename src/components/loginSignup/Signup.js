@@ -1,10 +1,8 @@
 import React from 'react'
-import './Signup.css'
+import './SignUp.css'
 
 
-import google_icon from '../assets/google_icon.svg'
-import facebook_icon from '../assets/facebook_icon.svg'
-import apple_icon from '../assets/apple_icon.svg'
+
 
  function Signup() {
   return (
