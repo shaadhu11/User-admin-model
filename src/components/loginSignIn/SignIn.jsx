@@ -1,9 +1,11 @@
 import React from 'react'
 import './SignIn.css'
-import SignUp from '../loginSignup/SignUp.js';
+
 import { useNavigate } from 'react-router-dom';
 
 function SignIn() {
+  const navigate= useNavigate();
+
   return (
     <div className='container'>
       <div className='header'>
@@ -25,7 +27,7 @@ function SignIn() {
         <div className='footer'>
           <h6>Forget your password ?</h6>
           <h3>OR</h3>
-          <h2 >New to E-Waste <button className='btn'>signup</button></h2>
+          <h2 >New to E-Waste <button className='btn' onClick={()=>navigate('/SignUp')}>signup</button></h2>
         </div>
 
       </div>
