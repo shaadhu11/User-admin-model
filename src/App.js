@@ -1,12 +1,15 @@
 
 import './App.css';
-import Login from './components/login';
+import SignUp from './components/loginSignup/SignUp.js';
+import SignIn from './components/loginSignIn/SignIn.jsx';
+
 
 function App() {
   return (
     <>
-      <h1>login page</h1>
-      <Login/>
+      
+    
+      <SignIn/>
     </>
     
       );
